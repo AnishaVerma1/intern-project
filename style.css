@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(169, 217, 217);
+}
+
+.container {
+    justify-content: center;
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgb(169, 205, 226);
+    padding: 120px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    
+    
+}
+
+label {
+    
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+input, select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0e0d0d;
+  padding: 8px;
+  margin: 15px;
+}
+
+input:focus {
+  border: 1px solid #4c49f3;
+}
+
+option {
+  background-color: #3c39e7;
+  color: #f6f6f6;
+}
+
+.left-input,
+.right-input {
+    flex: 48%;
+  
+}
+
+
+  .left-input label,
+.right-input label {
+    display: block;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+} 
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px;
+    padding: 20px auto;
+}
+
+.convert-button {
+    flex: 48%;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 50px;
+    font-size: 1rem;
+    padding: 7px;
+   
+}
+
+.reset-button {
+    flex: 48%;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 50px;
+    margin: auto 180px;
+    font-size: 1rem;
+    padding: 7px;
+}
+
+
+.convert-button:hover,
+.reset-button:hover {
+    background-color: aqua;
+    color: blue;
+    font-weight: bold;
+   
+}
+
+
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#result {
+    text-align: center;
+    font-weight: bold; 
+    padding: 10px 20px;
+    
+    border-radius: 3px;
+    margin-right: 200px;
+   
+    
+}
+
+

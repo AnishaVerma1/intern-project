@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Temperature Converter</h1>   
+        <div class="input-container">
+            <div class="left-input">
+                <label for="temperature ">Enter Temperature in Celsius: </label>
+               
+                <input type="number" id="temperature">
+            </div>
+            <div class="right-input">
+                <label for="unit">Select Unit to Convert:</label>
+                <select id="unit">
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="rankine">Rankine</option>
+                    <option value="reaumur">Reaumur</option>
+                    <option value="newton">Newton</option>
+                    <option value="delisle">Delisle</option>
+                    <option value="romer">Romer</option>
+                    <option value="celsius">Celsius</option>
+                </select>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="convert-button" onclick="convertTemperature()">Convert</button>
+            <button class="reset-button" onclick="resetConverter()">Reset</button>
+        </div><br>
+        
+        <div id="result">Result will be displayed here</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
